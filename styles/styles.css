@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Wysokość 100% widoku przeglądarki */
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.blaze {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.button {
+  background-color: #00B79D;
+  border: none;
+  border-radius: 8px;
+  width: 73px;
+  height: 25px;
+  color: white;
+  font-size: 12px;
+  margin-top: 25px;
+  text-align: center; /* Wyśrodkuj tekst w przycisku */
+  line-height: 25px; /* Wycentruj tekst w pionie */
+  text-decoration: none;
+}
+
+
+.button:hover {
+  background-color:#06d9b9;
+  text-decoration: none;
+}
+
+.golf-image {
+  width: 300px;
+  margin-top: 25px;
+  display: none;
+}
+
+
+.no-underline {
+  text-decoration: none;
+}
